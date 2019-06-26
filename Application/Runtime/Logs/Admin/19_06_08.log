@@ -1,0 +1,203 @@
+[ 2019-06-08T00:22:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_list.html
+ERR: syntax error, unexpected '=', expecting ')'
+
+[ 2019-06-08T00:23:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-08T00:23:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-08T00:23:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-08T00:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-08T01:04:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-08T09:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0040s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`sex`,`adminrole`) VALUES ('wuhao','wuhao','男','0') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2019-06-08T10:00:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_list.html
+ERR: Call to undefined function data()
+
+[ 2019-06-08T10:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_list.html
+ERR: Call to undefined function data()
+
+[ 2019-06-08T10:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_list.html
+ERR: Call to undefined function data()
+
+[ 2019-06-08T10:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_list.html
+ERR: Call to undefined function data()
+
+[ 2019-06-08T10:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0124s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`sex`,`adminrole`,`admintime`) VALUES ('php','123','女','1','1559959384') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2019-06-08T10:08:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add.html
+ERR: Call to undefined function Admin\Controller\P()
+
+[ 2019-06-08T10:08:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0041s ]
+ERR: Call to undefined function Admin\Controller\P()
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPStudy2018\PHPTutorial\WWW\tp3\ThinkPHP\Library\Think\View.class.php:95) D:\PHPStudy2018\PHPTutorial\WWW\tp3\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPStudy2018\PHPTutorial\WWW\tp3\ThinkPHP\Library\Think\View.class.php:95) D:\PHPStudy2018\PHPTutorial\WWW\tp3\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-06-08T10:08:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+ERR: Call to undefined function Admin\Controller\P()
+
+[ 2019-06-08T10:12:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0047s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`sex`,`adminrole`,`admintime`) VALUES ('wuhao','22','男','0','1559959945') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007158s ]
+
+[ 2019-06-08T10:37:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`sex`,`adminrole`,`admintime`) VALUES ('wuhao','22','女','1','1559961469') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2019-06-08T10:50:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/admin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`sex`,`adminrole`,`admintime`) VALUES ('wuhao','33','男','0','1559962229') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2019-06-08T11:00:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+ERR: 非法操作:Manager
+
+[ 2019-06-08T11:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/Manager/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+ERR: 非法操作:Manager
+
