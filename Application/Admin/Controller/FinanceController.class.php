@@ -17,7 +17,8 @@ class FinanceController extends CommonController
         $count = $project->count();
         $Page = new \Think\Page($count,2);
         $show = $Page->show();
-        $info = $project->limit($Page->firstRow.','.$Page->listRows)->where('status="已审核"and mstatus="未拨款"')->select();
+        $info = $project->limit($Page->firstRow.','.$Page->listRows)->select();
+
         $this->assign('page',$show);// 赋值分页输出
         if ($info){
             $this->assign('info',$info);
@@ -35,8 +36,16 @@ class FinanceController extends CommonController
         //$other = D('Principal')->where(array('id'=>$id))->select();
         $info = D('Project')->where(array('id'=>$id))->find();
         $other = D('principal')->where(array('people'=>$info['people']))->find();
-        $this->assign('info',$info);
-        $this->assign('other',$other);
+
+        if($info['status']=='未审核'){
+            echo '<script> alert("项目未审核，无法访问！！");
+                            location.href="'.U('finance').'";      
+                </script>';
+        }else{
+            $this->assign('info',$info);
+            $this->assign('other',$other);
+        }
+        
 
         if(IS_POST){
             $data = array(

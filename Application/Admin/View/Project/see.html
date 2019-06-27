@@ -58,16 +58,19 @@ $(".ystep3").loadStep({
     title: "审核",
     content: "乐捐平台工作人员审核项目"
   },{
-    title: "募款",
+    title: "拨款",
     content: "乐捐项目上线接受公众募款"
   },{
     title: "执行",
     content: "项目执行者线下开展救护行动"
   },{
-    title: "结项",
+    title: "完成",
     content: "项目执行者公示善款使用报告"
   }]
 });
+
+$(".ystep3").setStep(3);
+
 </script>
 </body>
 
