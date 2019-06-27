@@ -26,7 +26,7 @@
         <form action="<?php echo U('Project/DelAll');?>" method="post">
             <tr>
                 <th><input type="checkbox" onclick="SelectAll()" id="check">全选</th>
-                <th>编号<i class="sort"><img src="/Public/Admin/images/px.gif" /></i></th>
+                <th>编号<i class="sort"><img src="/pas_php/Public/Admin/images/px.gif" /></i></th>
                 <th>标题</th>
                 <th>负责人</th>
                 <th>所需公款</th>
