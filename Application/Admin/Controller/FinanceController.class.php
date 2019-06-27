@@ -30,7 +30,6 @@ class FinanceController extends CommonController
     }
 
     public function see(){
-
         $id = I('get.id');
         $project = D('Project');
         $shuju = D('Project')->where(array('id'=>$id))->select();
