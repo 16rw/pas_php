@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/pas_php/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/pas_php/Public/Admin/js/jquery.js"></script>
    
     <style>
         .forminfo{ width:650px; }
