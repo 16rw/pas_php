@@ -6,9 +6,6 @@
  * Time: 10:50
  */
 
-/*合并合并合并合并合并合并合并合并合并*/
-
-
 namespace Admin\Controller;
 use Think\Controller;
 
@@ -56,11 +53,7 @@ class AccountController extends CommonController{
                 $this->ajaxReturn($shuju);
             }
         }
-    	// if(IS_POST){
-    	// 	$password = I('post.oldPwd');
-    	// 	dump($password);
-    	// 	exit;
-    	// }
+    	
     }
 
 }
