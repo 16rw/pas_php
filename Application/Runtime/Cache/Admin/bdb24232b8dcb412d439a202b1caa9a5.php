@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<link href="/pas_php/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/pas_php/Public/Admin/js/jquery.js"></script>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
 <script type="text/javascript">
 $(function(){	
 	//顶部导航切换
@@ -18,10 +18,10 @@ $(function(){
 
 </head>
 
-<body style="background:url(/pas_php/Public/Admin/images/topbg.gif) repeat-x;">
+<body style="background:url(/Public/Admin/images/topbg.gif) repeat-x;">
 
     <div class="topleft">
-    <a href="main.html" target="_parent"><img src="/pas_php/Public/Admin/images/logo.png" title="系统首页" /></a>
+    <a href="main.html" target="_parent"><img src="/Public/Admin/images/logo.png" title="系统首页" /></a>
     </div>
         
     
