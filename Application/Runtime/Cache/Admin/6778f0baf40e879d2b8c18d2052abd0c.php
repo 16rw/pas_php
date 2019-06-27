@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<link href="/pas_php/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/pas_php/Public/Admin/js/jquery.js"></script>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
 
 <script type="text/javascript">
 $(function(){	
@@ -52,10 +52,10 @@ $(function(){
 	        
 		    <dd>
 			    <div class="title">
-			    	<span><img src="/pas_php/Public/Admin/images/leftico01.png" /></span><?php echo ($v["auth_name"]); ?>
+			    	<span><img src="/Public/Admin/images/leftico01.png" /></span><?php echo ($v["auth_name"]); ?>
 			    </div>
 		    	<ul class="menuson">
-					<?php if(is_array($authinfoB)): foreach($authinfoB as $key=>$vv): if($vv['auth_pid'] == $v['auth_id']): ?><li><cite></cite><div class="header"><a href="/pas_php/index.php/Admin/<?php echo ($vv["auth_c"]); ?>/<?php echo ($vv["auth_a"]); ?>" target="rightFrame"><?php echo ($vv["auth_name"]); ?></a><i></i></div></li><?php endif; endforeach; endif; ?>
+					<?php if(is_array($authinfoB)): foreach($authinfoB as $key=>$vv): if($vv['auth_pid'] == $v['auth_id']): ?><li><cite></cite><div class="header"><a href="/index.php/Admin/<?php echo ($vv["auth_c"]); ?>/<?php echo ($vv["auth_a"]); ?>" target="rightFrame"><?php echo ($vv["auth_name"]); ?></a><i></i></div></li><?php endif; endforeach; endif; ?>
 		        </ul>    
 		    </dd>
 	    </dl><?php endforeach; endif; ?>

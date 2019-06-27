@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<link href="/pas_php/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/pas_php/Public/Admin/js/jquery.js"></script>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 
 </head>
 
@@ -26,7 +26,7 @@
         <form action="<?php echo U('Project/DelAll');?>" method="post">
         <tr>
             <th><input type="checkbox" onclick="SelectAll()" id="check">全选</th>
-            <th>编号<i class="sort"><img src="/pas_php/Public/Admin/images/px.gif" /></i></th>
+            <th>编号<i class="sort"><img src="/Public/Admin/images/px.gif" /></i></th>
             <th>标题</th>
             <th>负责人</th>
             <th>所需公款</th>

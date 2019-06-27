@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<link href="/pas_php/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/pas_php/Public/Admin/js/jquery.js"></script>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 
 </head>
 
@@ -22,7 +22,7 @@
     
     
     <div class="welinfo">
-    <span><img src="/pas_php/Public/Admin/images/sun.png" alt="天气" /></span>
+    <span><img src="/Public/Admin/images/sun.png" alt="天气" /></span>
         <b><?php echo (session('admin_name')); ?>早上好，欢迎使用信息管理系统</b>
     </div>
     
@@ -36,7 +36,7 @@
     <div class="box"></div>
     
     <div class="welinfo">
-    <span><img src="/pas_php/Public/Admin/images/dp.png" alt="提醒" /></span>
+    <span><img src="/Public/Admin/images/dp.png" alt="提醒" /></span>
     <b>Uimaker项目管理系统使用指南</b>
     </div>
     
