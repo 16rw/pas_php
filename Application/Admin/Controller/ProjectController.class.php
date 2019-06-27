@@ -19,15 +19,9 @@ class ProjectController extends CommonController{
     public function Project(){
 
         $project = D('Project');
-        //$info = $project->select();
         $count = $project->count();
-        //dump($count);
         $Page = new \Think\Page($count,2);
-        //$Page->setConfig('header','个会员');
-        //dump($Page);
         $show = $Page->show();
-
-        //exit;
         $info = $project->limit($Page->firstRow.','.$Page->listRows)->select();
         //$this->assign('list',$list);// 赋值数据集
         $this->assign('page',$show);// 赋值分页输出
@@ -118,11 +112,6 @@ class ProjectController extends CommonController{
             }
         }else{
             $info = $project->find($id);
-            //dump($info);
-            //$roleinfo = D('Role')->select();
-            //dump($roleinfo);
-           // $this->assign('roleinfo',$roleinfo);
-            //dump($info);
             $this->assign("info",$info);
             $this->display("update");
         }
