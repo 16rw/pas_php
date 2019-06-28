@@ -31,8 +31,9 @@
             <th>负责人</th>
             <th>所需公款</th>
             <th>申请理由</th>
-            <th>状态</th>
+            <th>审批状态</th>
             <th>资金状态</th>
+            <th>项目状态</th>
             <th>创建时间</th>
             <th>操作</th>
         </tr>
@@ -47,6 +48,7 @@
             <td>{$v.reason}</td>
             <td>{$v.status}</td>
             <td>{$v.mstatus}</td>
+            <td>{$v.done}</td>
             <td>{$v.ctime}</td>
             <td><a href="{:U('see',array('id'=>$v['id']))}" class="tablelink">查看</a>     <a href="{:U('del',array('id'=>$v['id']))}" class="tablelink">删除</a></li>
         </tr>
