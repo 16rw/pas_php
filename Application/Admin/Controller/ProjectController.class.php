@@ -76,6 +76,21 @@ class ProjectController extends CommonController{
         //$other = D('Principal')->where(array('id'=>$id))->select();
         $info = D('Project')->where(array('id'=>$id))->find();
         $other = D('principal')->where(array('people'=>$info['people']))->find();
+        
+
+        if($info){
+            //项目发布即存在
+            $this->assign('num',1);
+        }
+        if ($info && $info['status']=='已审核') {
+            $this->assign('num',2);    
+        }
+        if ($info && $info['status']=='已审核' && $info['mstatus']=='已拨款') {
+            $this->assign('num',3);    
+        }
+        if ($info && $info['status']=='已审核' && $info['mstatus']=='已拨款' && $info['done']=='已完成') {
+            $this->assign('num',4);    
+        }
         $this->assign('info',$info);
         $this->assign('other',$other);
         $this->display();
