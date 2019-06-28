@@ -67,6 +67,11 @@
             <li><label>其他成员</label><input name="other" type="text" class="dfinput" /><i>多个用  ,  隔开</i></li>
             <li><label>所需公款</label><input name="money" type="text" class="dfinput" /><i></i></li>
             <li><label>理由</label><textarea name="reason" cols="" rows="" class="textinput"></textarea></li>
+            <li><label>所属流程</label><select class="dfinput">
+                <foreach name="process" item="v">
+                <option value ="proce">{$v.process}</option>
+                </foreach>
+            </select></li>
             <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="确认发布"/></li>
         </ul>
     </div>

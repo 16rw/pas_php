@@ -34,6 +34,7 @@ class ProjectController extends CommonController{
     function add(){
         $project = D('Project');
         $principal = D('principal');
+        $process = D('process');
         if(IS_POST){
             $data = array(
                 'name' => I('post.name'),
@@ -57,6 +58,8 @@ class ProjectController extends CommonController{
                 $this->error('发布失败',U('Manager/add'));
             }
         }
+        $info = $process->select();
+        $this->assign('process',$info);
         $this->display();
     }
 
